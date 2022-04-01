@@ -1,0 +1,48 @@
+h1 {
+  font-family: "Gruppo", cursive;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.description {
+  width: 50%;
+  margin: 0px auto 40px auto;
+}
+
+.header-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+div {
+  display: block;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+p {
+  font-family: "Abel", sans-serif;
+}
+
+p {
+  display: block;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
